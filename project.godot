@@ -1,0 +1,25 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+config/name="Dino Duel"
+config/description="Realistic 1v1 dinosaur combat: real species stats, anatomical hitboxes, bleeding, fractures, stamina and personality-driven AI. Part of the Precog sim suite."
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.4", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="disabled"
+
+[physics]
+
+common/physics_ticks_per_second=60
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
